@@ -47,7 +47,7 @@ function love.load()
     if player.cooldown <= 0 then
       
       love.audio.play(player.fire_sound)
-    player.cooldown = 17
+    player.cooldown = 15
     bullet = {}
     bullet.x = player.x+50
     bullet.y = player.y
